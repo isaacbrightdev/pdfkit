@@ -1,0 +1,21 @@
+$main: #6cb2eb;
+.login-page{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login-form {
+    width: 400px;
+    max-width: 400px;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+    border-color: $main !important;
+    background-color: $main !important;
+    border-radius: 10px !important;
+}
